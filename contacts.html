@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сишарпики | Контакты</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/ico.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">сишарпики</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="contacts.html" class="nav__link active">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="contacts">
+            <div class="container">
+                <h1 class="section__title">Свяжитесь с нами</h1>
+                <div class="contacts__content">
+                    <div class="contacts__info">
+                        <h2 class="contacts__subtitle">Контактная информация</h2>
+                        <p class="contacts__text"><strong>Email:</strong> id.ilichev@gmail.com</p>
+                        <p class="contacts__text"><strong>Телефон:</strong> +7 (960) 601 28-95</p>
+                        <p class="contacts__text"><strong>Адрес:</strong> г. Тула, проспект Ленина 92</p>
+
+                        <h2 class="contacts__subtitle">Социальные сети</h2>
+                        <div class="social__links">
+                            <a href="https://t.me/tshortstore" class="social__link">Telegram</a>
+                            <a href="https://vk.com/imstill4live" class="social__link">VK</a>
+                            <a href="https://github.com/lurk3rx/devops-case-6" class="social__link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="contacts__form">
+                        <h2 class="contacts__subtitle">Напишите нам</h2>
+                        <form action="#" method="POST" class="form">
+                            <div class="form__group">
+                                <label for="name" class="form__label">Ваше имя</label>
+                                <input type="text" id="name" name="name" class="form__input" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="email" class="form__label">Ваш email</label>
+                                <input type="email" id="email" name="email" class="form__input" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="message" class="form__label">Сообщение</label>
+                                <textarea id="message" name="message" class="form__textarea" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">©2025 сишарпики. Работа выполнена в рамках практики на цифровой кафедре по
+                направлению Dev-Ops инжинер. Кейсодатель - Ростелеком. Все права типо защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
