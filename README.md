@@ -109,8 +109,8 @@ git push origin main
 4. Актуальную конфигурацию workflow
 
 ## ✳️ Чек-лист
-Есть HTML-страницы и стили - ✅
-Сайт размещён на [GitHub](https://github.com/lurk3rx/devops-case-6) - ✅
-Настроен Workflow GitHub Actions - ✅
-Сайт автоматически обновляется после коммита -✅
-[README.md](https://github.com/lurk3rx/devops-case-6/blob/main/README.md) описывает шаги развёртывания -✅
+Есть HTML-страницы и стили - ✅  
+Сайт размещён на [GitHub](https://github.com/lurk3rx/devops-case-6) - ✅  
+Настроен Workflow GitHub Actions - ✅  
+Сайт автоматически обновляется после коммита -✅  
+[README.md](https://github.com/lurk3rx/devops-case-6/blob/main/README.md) описывает шаги развёртывания -✅  
