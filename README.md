@@ -42,7 +42,7 @@
 git clone https://github.com/lurk3rx/devops-case-6.git
 cd devops-case-6
 ```
-### 2. Настройка GitHub Pages
+### 2. Настройка GitHub Pages и GitHub Actions
 Перейдите в Settings → Pages
 
 В разделе "Build and deployment":
@@ -55,7 +55,7 @@ Static HTML → Confugre
 
 Commit changes
 
-Сохраните изменения
+
 
 ### 3. Настройка workflow
 Файл .github/workflows/deploy.yml:
