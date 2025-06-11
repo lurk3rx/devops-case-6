@@ -49,6 +49,12 @@ cd devops-case-6
 
 Source: GitHub Actions
 
+Static HTML → Confugre
+
+Вставляем код из следующего пункта
+
+Commit changes
+
 Сохраните изменения
 
 ### 3. Настройка workflow
